@@ -14,8 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #ad0303;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+.Firstcomponent{
+  background-color: #b5c904;
+}
+
+.Secondcomponent{
+  background-color: chartreuse;
+}
+
+.Contactus{
+  background-color: darkslategrey;
+}
+
+.Help{
+  background-color: dodgerblue;
 }

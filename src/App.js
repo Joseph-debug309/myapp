@@ -1,25 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Firstcomponent from './components/Firstcomponent';
+import Secondcomponent from './components/Secondcomponent';
+import Contactus from './components/Contactus';
+import Help from './components/Help';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Welcome to Learning Reactjs</h1>
+        <h2>React is fun</h2>
       </header>
+      {/*Below we render/display our first component*/}
+      <Firstcomponent></Firstcomponent>
+      <Secondcomponent></Secondcomponent>
+      <Contactus></Contactus>
+      <Help></Help>
     </div>
   );
 }
 
 export default App;
+
+// jsx
