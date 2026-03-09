@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #ad0303;
+  background-color: #ad037a;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -45,7 +45,7 @@
 }
 
 .Contactus{
-  background-color: darkslategrey;
+  background-color: rgb(67, 228, 228);
 }
 
 .Help{
@@ -64,4 +64,38 @@
   padding-top: 10px;
   padding-bottom: 10px;
   text-decoration: overline;
+}
+
+.Fifthcomponent{
+  background-color: aliceblue;
+}
+
+.Sixthcomponent{
+  background-color: #27d46a;
+}
+
+.Notfound{
+  color: red;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.nav{
+  background-color: darkolivegreen;
+  padding: 10px;
+}
+
+.navlinks{
+  margin: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  background-color: burlywood;
+  padding: 4px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.navlinks:hover{
+  background-color: bisque;
+  color: rgb(14, 24, 54);
 }
